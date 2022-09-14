@@ -1,3 +1,14 @@
+void setup() {
+  background(255,255,255);
+  size(500, 500);  //feel free to change the size
+  noLoop(); //stops the draw() function from repeating
+}
+
+void mouseClicked() {
+  System.out.println(mouseX);
+  System.out.println(mouseY);
+}
+
 void draw() {
   for(int j = 0; j < 480; j+=80) {
     for(int i = 0; i <=500; i+=50) {
